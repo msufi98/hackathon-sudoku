@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#Puzzle{
+    width: 500px;
+    height: 500px;
+
+    border: 1px solid black;
+    display: grid;
+    grid-template: repeat(9 , 1fr)/repeat(9,1fr);
+}
+
+.cell{
+    border: 1px black solid;
+    text-align:center;
+}
+
+.selected{
+    background-color: lightblue;
+}
